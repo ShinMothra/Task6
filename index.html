@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Калькулятор стоимости заказа</title>
+    <link rel="stylesheet" href="C:\Users\gavri\Desktop\НИКИТА\ДЗ 5\style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="logo">
+        <h2>Рассчитайте стоимость товара</h2>
+    </div>
+    <label for="product">Выберите товар:</label>
+    <select id="product">
+        <option value="type1">Какао</option>
+        <option value="type2">Чай</option>
+        <option value="type3">Кофе</option>
+    </select>
+    
+    <div id="options-wrapper"></div>
+    <div id="properties-wrapper"></div>
+    
+    <input type="text" id="quantity" placeholder="Количество товара">
+    <button onclick="calculateTotal()">Рассчитать стоимость</button>
+    <p id="totalCost"></p>
+</body>
+</html>
