@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     optionSelect.id = 'optionSelect';
                     var option1 = document.createElement('option');
                     option1.value = 'option1';
-                    option1.textContent = 'Чёрный';
+                    option1.textContent = 'Петрушевый';
                     var option2 = document.createElement('option');
                     option2.value = 'option2';
-                    option2.textContent = 'Зелёный';
+                    option2.textContent = 'Малиновый';
                     optionSelect.appendChild(option1);
                     optionSelect.appendChild(option2);
                     optionsWrapper.appendChild(optionSelect);
