@@ -1,0 +1,41 @@
+* Стили для основного контейнера */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Стили для выпадающего списка */
+#product {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Стили для текстового поля */
+#quantity {
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* Стили для кнопки */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Стили для вывода стоимости */
+#totalCost {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration:underline;
+}
